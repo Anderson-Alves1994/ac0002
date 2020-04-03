@@ -23,8 +23,6 @@ def numeros_primos ():
             primos = primos + str(n) + ","
             qtd = qtd + 1
             print (qtd)
-            if (qtd % 10 ==0):
-                primos = primos + "->" + str(qtd) + "<br>"
             n+=1
     return primos
 
